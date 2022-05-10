@@ -14,7 +14,7 @@ class Cal {
     this.cur = this.cur.toString().slice(0, -1);
   }
   appendNum(num) {
-    if (num === '.  ' && this.cur.includes('.')) return;
+    if (num === '.' && this.cur.includes('.')) return;
     this.cur = this.cur.toString() + num.toString();
   }
   chooseOper(oper) {
